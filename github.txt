@@ -1,0 +1,23 @@
+cd /d 絕對路徑
+
+mkdir 創建當下目錄資料夾
+
+
+---------------------------git語法-------------------------
+
+git status 確認git狀態,紅色為本地端修改但還未加入
+
+git add .  將未加入檔案全部(.)加入本地端, 綠色為已加入
+
+git commit -m "" 將本地端加入的檔案打包(commit)並註解(-m "")
+
+git push origin master 推到github上 遠端名稱(origin)   分支名稱(master)
+
+
+常用指令
+
+git log 看修改資訊
+
+git branch -a 查看所有分支 *為當前分支
+
+git checkout master 切換分支  分支名稱(master)
