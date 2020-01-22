@@ -15,6 +15,11 @@ git push origin master 推到github上 遠端名稱(origin)   分支名稱(master)
 
 
 常用指令
+git clone (https://github.com/telunyang/php7-mysql-examples.git) 複製github clone網址
+
+git pull 將舊的git包更新成github最新的版本 主分支直接打git pull 
+
+git branch name 創建新分支 name為新分支名稱
 
 git log 看修改資訊
 
