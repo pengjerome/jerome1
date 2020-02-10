@@ -1,28 +1,44 @@
-cd /d µ´¹ï¸ô®|
+cd /d çµ•å°è·¯å¾‘
 
-mkdir ³Ğ«Ø·í¤U¥Ø¿ı¸ê®Æ§¨
-
-
----------------------------git»yªk-------------------------
-
-git status ½T»{gitª¬ºA,¬õ¦â¬°¥»¦aºİ­×§ï¦ıÁÙ¥¼¥[¤J
-
-git add .  ±N¥¼¥[¤JÀÉ®×¥ş³¡(.)¥[¤J¥»¦aºİ, ºñ¦â¬°¤w¥[¤J
-
-git commit -m "" ±N¥»¦aºİ¥[¤JªºÀÉ®×¥´¥](commit)¨Ãµù¸Ñ(-m "")
-
-git push origin master ±À¨ìgithub¤W »·ºİ¦WºÙ(origin)   ¤À¤ä¦WºÙ(master)
+mkdir å‰µå»ºç•¶ä¸‹ç›®éŒ„è³‡æ–™å¤¾
 
 
-±`¥Î«ü¥O
-git clone (https://github.com/telunyang/php7-mysql-examples.git) ½Æ»sgithub cloneºô§}
+---------------------------gitèªæ³•-------------------------
 
-git pull ±NÂÂªºgit¥]§ó·s¦¨github³Ì·sªºª©¥» ¥D¤À¤äª½±µ¥´git pull 
+git status ç¢ºèªgitç‹€æ…‹,ç´…è‰²ç‚ºæœ¬åœ°ç«¯ä¿®æ”¹ä½†é‚„æœªåŠ å…¥
 
-git branch name ³Ğ«Ø·s¤À¤ä name¬°·s¤À¤ä¦WºÙ
+git add .  å°‡æœªåŠ å…¥æª”æ¡ˆå…¨éƒ¨(.)åŠ å…¥æœ¬åœ°ç«¯, ç¶ è‰²ç‚ºå·²åŠ å…¥
 
-git log ¬İ­×§ï¸ê°T
+git commit -m "" å°‡æœ¬åœ°ç«¯åŠ å…¥çš„æª”æ¡ˆæ‰“åŒ…(commit)ä¸¦è¨»è§£(-m "")    --author="jerome<jerome@gmail.com>"
 
-git branch -a ¬d¬İ©Ò¦³¤À¤ä *¬°·í«e¤À¤ä
+git push origin master æ¨åˆ°githubä¸Š é ç«¯åç¨±(origin)   åˆ†æ”¯åç¨±(master)
 
-git checkout master ¤Á´«¤À¤ä  ¤À¤ä¦WºÙ(master) or  ID¦WºÙ(commit ID ¤Á´«commit)
+
+å¸¸ç”¨æŒ‡ä»¤
+git clone (https://github.com/telunyang/php7-mysql-examples.git) è¤‡è£½github cloneç¶²å€
+
+git pull å°‡èˆŠçš„gitåŒ…æ›´æ–°æˆgithubæœ€æ–°çš„ç‰ˆæœ¬ ä¸»åˆ†æ”¯ç›´æ¥æ‰“git pull 
+
+git branch name å‰µå»ºæ–°åˆ†æ”¯ nameç‚ºæ–°åˆ†æ”¯åç¨±
+
+git log çœ‹ä¿®æ”¹è³‡è¨Š
+
+git branch -a æŸ¥çœ‹æ‰€æœ‰åˆ†æ”¯ *ç‚ºç•¶å‰åˆ†æ”¯
+
+git checkout master åˆ‡æ›åˆ†æ”¯  åˆ†æ”¯åç¨±(master) or  IDåç¨±(commit ID åˆ‡æ›commit)
+
+
+
+git init(æœ¬åœ°)
+
+å–å›æª”æ¡ˆ
+git status 
+
+git checkout
+
+git rm(ç§»é™¤)
+
+
+.gitignore(ä¸è¢«ç‰ˆæ§)
+
+
