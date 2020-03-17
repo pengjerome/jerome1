@@ -41,4 +41,6 @@ git rm(移除)
 
 .gitignore(不被版控)
 
+git merge (合併分支)
+
 
